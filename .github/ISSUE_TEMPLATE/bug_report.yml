@@ -1,0 +1,71 @@
+name: Bug report
+description: Report a lighting or detection problem
+title: "[Bug]: "
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing the G316 X 98 plugin.
+        Please provide enough hardware information to reproduce the problem.
+
+  - type: input
+    id: model
+    attributes:
+      label: Exact keyboard model
+      placeholder: Logitech G316 X 98
+    validations:
+      required: true
+
+  - type: input
+    id: layout
+    attributes:
+      label: Regional layout
+      placeholder: TR ISO / US ANSI / UK ISO / etc.
+    validations:
+      required: true
+
+  - type: input
+    id: vidpid
+    attributes:
+      label: USB VID/PID
+      placeholder: 046D:C36B
+    validations:
+      required: true
+
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware version
+      description: If known
+
+  - type: input
+    id: signalrgb
+    attributes:
+      label: SignalRGB version
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Name the exact keys/zones and the effect used.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant SignalRGB console output
+      render: text
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Basic checks
+      options:
+        - label: I tested a solid static color.
+          required: true
+        - label: I confirmed that no second experimental G316 X plugin is active.
+          required: true

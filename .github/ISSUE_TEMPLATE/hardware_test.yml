@@ -1,0 +1,63 @@
+name: Hardware compatibility report
+description: Report successful or partial testing on another G316 X 98
+title: "[Hardware test]: "
+
+body:
+  - type: input
+    id: layout
+    attributes:
+      label: Regional layout
+      placeholder: US ANSI / TR ISO / DE ISO / etc.
+    validations:
+      required: true
+
+  - type: input
+    id: vidpid
+    attributes:
+      label: USB VID/PID
+      placeholder: 046D:C36B
+    validations:
+      required: true
+
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware version
+      description: If known
+
+  - type: input
+    id: signalrgb
+    attributes:
+      label: SignalRGB version
+    validations:
+      required: true
+
+  - type: dropdown
+    id: keys
+    attributes:
+      label: Per-key RGB
+      options:
+        - Fully working
+        - Partially working
+        - Not working
+    validations:
+      required: true
+
+  - type: dropdown
+    id: bar
+    attributes:
+      label: 30-zone RGB light bar
+      options:
+        - Fully working
+        - Partially working
+        - Not working
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Mention any keys or zones that differ from the documented mapping.
+    validations:
+      required: true

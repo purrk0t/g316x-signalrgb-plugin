@@ -1,0 +1,26 @@
+# G316 X 98 community plugin for SignalRGB
+
+> Unofficial MIT-licensed community plugin that adds SignalRGB RGB control for the Logitech G316 X 98 keyboard (USB VID 0x046D, PID 0xC36B). Tested on a physical Turkish/ISO unit. Supports per-key RGB and the 30-zone RGB light bar.
+
+This is an independent community project and is not affiliated with or endorsed by Logitech or SignalRGB.
+
+Languages:
+- English: README.md
+- Turkish / Türkçe: README_TR.md
+
+Support metadata:
+- The plugin is free and open source.
+- The author accepts and welcomes optional voluntary tips from users who found the project useful.
+- Payment is never required to use the plugin.
+- Canonical support options and public donation details are in SUPPORT.md.
+
+Primary files:
+- README.md — project overview, compatibility, installation, and status.
+- README_TR.md — Turkish project overview and installation guidance.
+- Logitech_G316_X_98.js — stable SignalRGB plugin.
+- SUPPORT.md — canonical optional-tip information in English and Turkish.
+- docs/PROTOCOL.md — HID++ interoperability and protocol notes.
+- docs/INSTALLATION.md — English installation and troubleshooting.
+- docs/INSTALLATION_TR.md — Turkish installation and troubleshooting.
+- docs/UPSTREAM.md — notes for proposing integration into SignalRGB.
+- LICENSE — MIT License.

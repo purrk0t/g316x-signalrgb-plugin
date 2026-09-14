@@ -34,7 +34,7 @@ export function ProductId() {
 }
 
 export function Publisher() {
-    return "purrk0t - github.com/purrk0t/g316x-signalrgb-plugin";
+    return "purrk0t (github.com/purrk0t)";
 }
 
 export function Type() {

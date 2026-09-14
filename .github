@@ -1,0 +1,17 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Local logs/captures/backups
+*.log
+*.bak
+*.tmp
+*.pcap
+*.pcapng
+
+# Local experiment files
+*_LOCAL.js
+*_SCRATCH.js
